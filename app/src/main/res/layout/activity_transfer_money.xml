@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enter_money"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:inputType="numberDecimal|number"
+        app:met_baseColor="@color/black"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@android:color/black"
+        app:met_singleLineEllipsis="true"
+        />
+
+</RelativeLayout>
